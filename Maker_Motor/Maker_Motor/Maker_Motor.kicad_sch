@@ -1,0 +1,301 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3c01c5e5-b584-4f51-a03f-dfc47f784e27")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 100.33 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2be4c4da-b7b3-4395-ba0a-62b958605872")
+	)
+	(wire
+		(pts
+			(xy 100.33 49.53) (xy 101.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09204ffa-9edb-407b-8e6a-f353eb58faf5")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 100.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1f1bd1-bc6a-4da2-a1f3-b0a1610b0c72")
+	)
+	(wire
+		(pts
+			(xy 100.33 52.07) (xy 101.6 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a039ceb3-e6a6-4475-8c07-154a1758c76d")
+	)
+	(wire
+		(pts
+			(xy 100.33 49.53) (xy 100.33 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a077ebea-a825-4380-b007-af6dc02dc190")
+	)
+	(sheet
+		(at 101.6 38.1)
+		(size 38.1 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ecdd12e-4d80-4fd2-b609-b627b71fbb44")
+		(property "Sheetname" "Motor"
+			(at 101.6 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor.kicad_sch"
+			(at 101.6 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBAT" input
+			(at 101.6 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "488b7c33-26f8-4a0b-ae01-fcbf9310f5a6")
+		)
+		(pin "BHI" input
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a669100-27c4-42bc-aaa9-2ac65cb82672")
+		)
+		(pin "BLI" input
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a35580b0-8d75-44a1-9a77-53eaeb436ecc")
+		)
+		(pin "AHI" input
+			(at 139.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d44ae1cd-1fe5-4ce3-83f7-b81c5b644e36")
+		)
+		(pin "ALI" input
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2fb28c5-ae5d-4871-ab30-004362012a94")
+		)
+		(pin "VMOTOR" input
+			(at 101.6 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "55113986-c6ff-4990-97e3-b29cbdd3c800")
+		)
+		(instances
+			(project "Maker_Motor"
+				(path "/3c01c5e5-b584-4f51-a03f-dfc47f784e27"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 38.1)
+		(size 50.8 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58998c6a-97b9-4b17-9cfb-cae6b4986d42")
+		(property "Sheetname" "PSU"
+			(at 38.1 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 38.1 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBAT" input
+			(at 88.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "62b4e233-402f-4924-9e86-8e30d4b40f8f")
+		)
+		(pin "3.3V" input
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "df0dddcd-9411-4ad6-bf08-e3c548687157")
+		)
+		(instances
+			(project "Maker_Motor"
+				(path "/3c01c5e5-b584-4f51-a03f-dfc47f784e27"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 101.6)
+		(size 50.8 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a44d348-69b1-492e-85e3-33388513003b")
+		(property "Sheetname" "USB"
+			(at 38.1 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 38.1 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ISO_GND" input
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26ca7f92-de8a-4e71-b57e-8af3a349aa06")
+		)
+		(instances
+			(project "Maker_Motor"
+				(path "/3c01c5e5-b584-4f51-a03f-dfc47f784e27"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 101.6)
+		(size 81.28 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ebf4446d-1827-4eb5-8374-c026884cf021")
+		(property "Sheetname" "CPU"
+			(at 101.6 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU.kicad_sch"
+			(at 101.6 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Maker_Motor"
+				(path "/3c01c5e5-b584-4f51-a03f-dfc47f784e27"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
